@@ -22,18 +22,18 @@ const scene = new THREE.Scene();
 const textureLoader = new THREE.TextureLoader();
 
 // Floor
-const floorAlphaTexture = textureLoader.load("./floor/alpha.jpg");
+const floorAlphaTexture = textureLoader.load("./floor/alpha.webp");
 const floorColorTexture = textureLoader.load(
-  "./floor/coast_sand_rocks_02_diff_1k.jpg"
+  "./floor/coast_sand_rocks_02_diff_1k.webp"
 );
 const floorARMTexture = textureLoader.load(
-  "./floor/coast_sand_rocks_02_arm_1k.jpg"
+  "./floor/coast_sand_rocks_02_arm_1k.webp"
 );
 const floorNormalTexture = textureLoader.load(
-  "./floor/coast_sand_rocks_02_nor_gl_1k.jpg"
+  "./floor/coast_sand_rocks_02_nor_gl_1k.webp"
 );
 const floorDisplacementTexture = textureLoader.load(
-  "./floor/coast_sand_rocks_02_disp_1k.jpg"
+  "./floor/coast_sand_rocks_02_disp_1k.webp"
 );
 
 floorColorTexture.colorSpace = THREE.SRGBColorSpace;
@@ -55,23 +55,23 @@ floorDisplacementTexture.wrapT = THREE.RepeatWrapping;
 
 // Wall
 const wallColorTexture = textureLoader.load(
-  "./wall/castle_brick_broken_06_diff_1k.jpg"
+  "./wall/castle_brick_broken_06_diff_1k.webp"
 );
 const wallARMTexture = textureLoader.load(
-  "./wall/castle_brick_broken_06_arm_1k.jpg"
+  "./wall/castle_brick_broken_06_arm_1k.webp"
 );
 const wallNormalTexture = textureLoader.load(
-  "./wall/castle_brick_broken_06_nor_gl_1k.jpg"
+  "./wall/castle_brick_broken_06_nor_gl_1k.webp"
 );
 wallColorTexture.colorSpace = THREE.SRGBColorSpace;
 
 // Roof
 const roofColorTexture = textureLoader.load(
-  "./roof/roof_slates_02_diff_1k.jpg"
+  "./roof/roof_slates_02_diff_1k.webp"
 );
-const roofARMTexture = textureLoader.load("./roof/roof_slates_02_arm_1k.jpg");
+const roofARMTexture = textureLoader.load("./roof/roof_slates_02_arm_1k.webp");
 const roofNormalTexture = textureLoader.load(
-  "./roof/roof_slates_02_nor_gl_1k.jpg"
+  "./roof/roof_slates_02_nor_gl_1k.webp"
 );
 roofColorTexture.colorSpace = THREE.SRGBColorSpace;
 
@@ -85,13 +85,13 @@ roofNormalTexture.wrapS = THREE.RepeatWrapping;
 
 // Bush
 const bushColorTexture = textureLoader.load(
-  "./bush/leaves_forest_ground_diff_1k.jpg"
+  "./bush/leaves_forest_ground_diff_1k.webp"
 );
 const bushARMTexture = textureLoader.load(
-  "./bush/leaves_forest_ground_arm_1k.jpg"
+  "./bush/leaves_forest_ground_arm_1k.webp"
 );
 const bushNormalTexture = textureLoader.load(
-  "./bush/leaves_forest_ground_nor_gl_1k.jpg"
+  "./bush/leaves_forest_ground_nor_gl_1k.webp"
 );
 bushColorTexture.colorSpace = THREE.SRGBColorSpace;
 
@@ -105,13 +105,13 @@ bushNormalTexture.wrapS = THREE.RepeatWrapping;
 
 // Grave
 const graveColorTexture = textureLoader.load(
-  "./grave/plastered_stone_wall_diff_1k.jpg"
+  "./grave/plastered_stone_wall_diff_1k.webp"
 );
 const graveARMTexture = textureLoader.load(
-  "./grave/plastered_stone_wall_arm_1k.jpg"
+  "./grave/plastered_stone_wall_arm_1k.webp"
 );
 const graveNormalTexture = textureLoader.load(
-  "./grave/plastered_stone_wall_nor_gl_1k.jpg"
+  "./grave/plastered_stone_wall_nor_gl_1k.webp"
 );
 graveColorTexture.colorSpace = THREE.SRGBColorSpace;
 
@@ -120,15 +120,15 @@ graveARMTexture.repeat.set(0.3, 0.4);
 graveNormalTexture.repeat.set(0.3, 0.4);
 
 // Door
-const doorColorTexture = textureLoader.load("./door/color.jpg");
-const doorAlphaTexture = textureLoader.load("./door/alpha.jpg");
+const doorColorTexture = textureLoader.load("./door/color.webp");
+const doorAlphaTexture = textureLoader.load("./door/alpha.webp");
 const doorAmbientOcclusionTexture = textureLoader.load(
-  "./door/ambientOcclusion.jpg"
+  "./door/ambientOcclusion.webp"
 );
-const doorHeightTexture = textureLoader.load("./door/height.jpg");
-const doorNormalTexture = textureLoader.load("./door/normal.jpg");
-const doorMetalnessTexture = textureLoader.load("./door/metalness.jpg");
-const doorRoughnessTexture = textureLoader.load("./door/roughness.jpg");
+const doorHeightTexture = textureLoader.load("./door/height.webp");
+const doorNormalTexture = textureLoader.load("./door/normal.webp");
+const doorMetalnessTexture = textureLoader.load("./door/metalness.webp");
+const doorRoughnessTexture = textureLoader.load("./door/roughness.webp");
 
 doorColorTexture.colorSpace = THREE.SRGBColorSpace;
 
